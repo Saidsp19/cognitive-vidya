@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to Cognitive Vidya
+# Welcome to Cognitive-Vidya
 
 Master **Python** and **Data Structures & Algorithms** — from absolute beginner to interview-ready expert.
 

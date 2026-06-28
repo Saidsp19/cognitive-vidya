@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Cognitive Vidya',
-  tagline: 'Master Python & DSA',
-  favicon: 'img/favicon.ico',
+  title: 'Cognitive-Vidya',
+  tagline: 'Empowering Intelligence, Inspiring Wisdom',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -54,15 +54,15 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Cognitive Vidya',
+      title: 'Cognitive-Vidya',
       logo: {
-        alt: 'Cognitive Vidya Logo',
-        src: 'img/logo.svg',
+        alt: 'Cognitive-Vidya Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -105,7 +105,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cognitive Vidya. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cognitive-Vidya. Empowering Intelligence, Inspiring Wisdom.`,
     },
     prism: {
       theme: prismThemes.github,

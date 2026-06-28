@@ -54,7 +54,7 @@ export default function CertificatePage(): ReactNode {
   };
 
   return (
-    <Layout title="Certificate" description="Track your progress and earn your Cognitive Vidya certificate">
+    <Layout title="Certificate" description="Track your progress and earn your Cognitive-Vidya certificate">
       <main className={styles.page}>
         <div className="container">
           <Heading as="h1">Your Progress & Certificate</Heading>
@@ -146,14 +146,14 @@ export default function CertificatePage(): ReactNode {
                       <p className={styles.certAward}>This certifies that</p>
                       <p className={styles.certName}>{name}</p>
                       <p className={styles.certBody}>
-                        has successfully completed the <strong>Cognitive Vidya</strong> Python Programming
+                        has successfully completed the <strong>Cognitive-Vidya</strong> Python Programming
                         course and DSA Patterns curriculum, demonstrating proficiency from beginner
                         to expert level.
                       </p>
                       <p className={styles.certDate}>
                         {new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'})}
                       </p>
-                      <p className={styles.certSig}>Cognitive Vidya · cognitive-vidya</p>
+                      <p className={styles.certSig}>Cognitive-Vidya · Empowering Intelligence, Inspiring Wisdom</p>
                     </div>
                     <button type="button" className="button button--secondary" onClick={handlePrint}>
                       Print / Save as PDF
