@@ -49,3 +49,5 @@ for right in range(len(s)):
 Launch the interactive workspace to implement your solution.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saidsp19/cognitive-vidya/blob/main/notebooks/01-sliding-window/longest-substring.ipynb)
+
+<LessonProgress lessonId="longest-substring" />

@@ -52,3 +52,7 @@ for i, num in enumerate(nums):
 Launch the interactive workspace to implement your solution.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saidsp19/cognitive-vidya/blob/main/notebooks/02-hashmap/two-sum.ipynb)
+
+<VideoEmbed videoId="KLlXCFG5TnA" title="Two Sum — Hash Map Pattern Explained" />
+
+<LessonProgress lessonId="two-sum" />

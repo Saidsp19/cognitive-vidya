@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Pattern-Based Learning',
+    title: 'Complete Python Course',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Master transferable patterns that solve entire families of problems,
-        not just individual questions. Learn once, apply everywhere.
+        30 structured lessons from beginner to expert — variables, OOP, files,
+        decorators, testing, and async. Theory plus hands-on Colab exercises.
       </>
     ),
   },
   {
-    title: 'Interactive Practice',
+    title: 'Quizzes & Certificate',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Code directly in Google Colab with instant feedback. Each problem includes
-        an auto-grader that validates your solution against hidden test cases.
+        Test knowledge with module quizzes, track lesson completion, and earn a
+        printable certificate when you reach 80% progress.
       </>
     ),
   },
   {
-    title: 'Built for Results',
+    title: 'DSA Pattern Mastery',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Structured curriculum covering Sliding Window, HashMap, Stack, Binary Search,
-        and more. Optimized for interview preparation and competitive programming.
+        Graduate to interview-ready problem solving with Sliding Window, HashMap,
+        Stack, Binary Search, and more reusable algorithmic patterns.
       </>
     ),
   },

@@ -20,8 +20,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Start Learning 🚀
+            to="/docs/python/course-overview">
+            Start Python Course 🚀
+          </Link>
+          <Link
+            className="button button--outline button--lg"
+            to="/certificate">
+            View Certificate 🏆
           </Link>
         </div>
       </div>
@@ -34,7 +39,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Master Python & DSA"
-      description="Learn Data Structures & Algorithms through pattern-based problem solving with interactive Python notebooks">
+      description="Complete Python course from beginner to expert plus DSA pattern mastery with interactive Colab notebooks">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

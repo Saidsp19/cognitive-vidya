@@ -1,0 +1,34 @@
+---
+sidebar_position: 4
+---
+
+# Module 4 Quiz — Functions
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 4: Functions"
+  storageKey="quiz-module-4"
+  questions={[
+    {
+      question: 'What keyword defines a function in Python?',
+      options: ['function', 'func', 'def', 'fn'],
+      correctIndex: 2,
+      explanation: 'Functions are defined with the def keyword.',
+    },
+    {
+      question: 'What does a closure capture?',
+      options: ['Global variables only', 'Variables from its enclosing scope', 'Built-in functions', 'Import statements'],
+      correctIndex: 1,
+      explanation: 'Closures remember variables from the function that created them.',
+    },
+    {
+      question: 'What does lambda create?',
+      options: ['A class', 'An anonymous function', 'A generator', 'A decorator'],
+      correctIndex: 1,
+      explanation: 'lambda defines a small anonymous function inline.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-4" />

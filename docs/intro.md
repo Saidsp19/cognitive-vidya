@@ -4,11 +4,34 @@ sidebar_position: 1
 
 # Welcome to Cognitive Vidya
 
-Master **Python** and **Data Structures & Algorithms** through pattern-based learning.
+Master **Python** and **Data Structures & Algorithms** — from absolute beginner to interview-ready expert.
 
-## Why Patterns?
+## Start Here
 
-Instead of memorizing individual problems, you'll learn **transferable patterns** that solve entire families of problems:
+**New to programming?** Begin with the [Python Course Overview](./python/course-overview) and follow the modules in order.
+
+**Already know Python?** Jump straight to [DSA Patterns](#dsa-patterns) below.
+
+## Python Course (30 Lessons)
+
+A complete path from theory to practice:
+
+| Module | Topics |
+|--------|--------|
+| **1. Fundamentals** | Setup, variables, types, operators, I/O |
+| **2. Control Flow** | Conditionals, for/while loops |
+| **3. Data Structures** | Lists, tuples, sets, dicts, strings |
+| **4. Functions** | Defining functions, scope, closures, FP |
+| **5. OOP** | Classes, inheritance, polymorphism |
+| **6. Files & Errors** | Exceptions, file I/O, JSON/CSV |
+| **7. Intermediate** | Comprehensions, generators, decorators |
+| **8. Advanced** | Modules, testing, type hints, async |
+
+Every lesson includes an **interactive Colab notebook** with auto-graded exercises.
+
+## DSA Patterns
+
+Apply your Python skills to interview-style problems using **transferable patterns**:
 
 - **Sliding Window** → Optimize array/string scans from O(N²) to O(N)
 - **HashMap** → Fast lookups and frequency counting
@@ -17,14 +40,12 @@ Instead of memorizing individual problems, you'll learn **transferable patterns*
 
 ## How It Works
 
-Each problem page includes:
+1. **Read the theory** — Concepts with examples on each lesson page
+2. **Practice in Colab** — Click the badge to code and test instantly
+3. **Pass the auto-grader** — Complete exercises until all tests pass
 
-1. **Problem Statement** — Clear, LeetCode-style specification
-2. **Pattern Explanation** — Why this pattern works
-3. **Interactive Workspace** — Click the Colab badge to code and test instantly
+## Get Started
 
-All notebooks include an **auto-grader** that validates your solution against hidden test cases.
+👉 [Python Course Overview](./python/course-overview)
 
-## Start Learning
-
-Choose a pattern from the sidebar to begin. We recommend starting with **Sliding Window**.
+🏆 [Track Progress & Certificate](/certificate)

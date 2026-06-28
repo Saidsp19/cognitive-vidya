@@ -1,0 +1,42 @@
+---
+sidebar_position: 1
+---
+
+# Module 1 Quiz — Fundamentals
+
+Test your understanding of Python basics.
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 1: Fundamentals"
+  storageKey="quiz-module-1"
+  questions={[
+    {
+      question: 'What does the print() function do?',
+      options: ['Reads user input', 'Displays output to the screen', 'Defines a variable', 'Imports a module'],
+      correctIndex: 1,
+      explanation: 'print() outputs text or values to the console.',
+    },
+    {
+      question: 'Which is a valid Python variable name?',
+      options: ['2fast', 'my-var', 'user_name', 'class'],
+      correctIndex: 2,
+      explanation: 'Variable names use letters, digits, and underscores, and cannot start with a digit or be a keyword.',
+    },
+    {
+      question: 'What is the result of 10 // 3 in Python?',
+      options: ['3.33', '3', '4', '1'],
+      correctIndex: 1,
+      explanation: '// is floor division — it returns the integer part of the division.',
+    },
+    {
+      question: 'Which type does input() always return?',
+      options: ['int', 'float', 'str', 'bool'],
+      correctIndex: 2,
+      explanation: 'input() always returns a string, even if the user types a number.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-1" />

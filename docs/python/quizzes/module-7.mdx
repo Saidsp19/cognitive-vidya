@@ -1,0 +1,34 @@
+---
+sidebar_position: 7
+---
+
+# Module 7 Quiz — Intermediate Python
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 7: Intermediate Python"
+  storageKey="quiz-module-7"
+  questions={[
+    {
+      question: 'What does yield do in a function?',
+      options: ['Returns and exits', 'Makes it a generator', 'Raises an exception', 'Imports a module'],
+      correctIndex: 1,
+      explanation: 'yield turns a function into a generator that produces values lazily.',
+    },
+    {
+      question: 'What is @decorator syntax sugar for?',
+      options: ['func = decorator(func)', 'import decorator', 'class decorator', 'delete func'],
+      correctIndex: 0,
+      explanation: '@decorator above a function is equivalent to reassigning func = decorator(func).',
+    },
+    {
+      question: '[x*2 for x in range(3)] produces:',
+      options: ['[0, 2, 4]', '[2, 4, 6]', '[1, 2, 3]', 'A generator only'],
+      correctIndex: 0,
+      explanation: 'range(3) is 0,1,2 — doubled gives [0, 2, 4].',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-7" />

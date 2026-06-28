@@ -1,0 +1,34 @@
+---
+sidebar_position: 8
+---
+
+# Module 8 Quiz — Advanced Python
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 8: Advanced Python"
+  storageKey="quiz-module-8"
+  questions={[
+    {
+      question: 'What does if __name__ == "__main__" guard?',
+      options: ['Class definitions', 'Code that runs only when script is executed directly', 'Import statements', 'Test files only'],
+      correctIndex: 1,
+      explanation: 'This block runs when the file is executed, not when imported.',
+    },
+    {
+      question: 'What is the purpose of type hints?',
+      options: ['Runtime enforcement', 'Documentation and static analysis', 'Faster execution', 'Memory optimization'],
+      correctIndex: 1,
+      explanation: 'Type hints help developers and tools like mypy — they are not enforced at runtime by default.',
+    },
+    {
+      question: 'When is async most beneficial?',
+      options: ['CPU-heavy computation', 'I/O-bound concurrent tasks', 'Simple scripts', 'Memory allocation'],
+      correctIndex: 1,
+      explanation: 'async shines when waiting on I/O — network, disk, etc.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-8" />

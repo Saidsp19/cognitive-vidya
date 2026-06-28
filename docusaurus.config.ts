@@ -69,7 +69,12 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Problems',
+          label: 'Course',
+        },
+        {
+          to: '/certificate',
+          label: 'Certificate',
+          position: 'left',
         },
         {
           href: 'https://github.com/Saidsp19/cognitive-vidya',

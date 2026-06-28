@@ -61,3 +61,5 @@ Step 2:       [7, 9]     mid=7  → found!
 Launch the interactive workspace to implement your solution.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saidsp19/cognitive-vidya/blob/main/notebooks/04-binary-search/binary-search.ipynb)
+
+<LessonProgress lessonId="binary-search" />

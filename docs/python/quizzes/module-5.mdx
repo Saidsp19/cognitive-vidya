@@ -1,0 +1,34 @@
+---
+sidebar_position: 5
+---
+
+# Module 5 Quiz — OOP
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 5: Object-Oriented Programming"
+  storageKey="quiz-module-5"
+  questions={[
+    {
+      question: 'What is self in a class method?',
+      options: ['The parent class', 'A reference to the current instance', 'A static variable', 'The module name'],
+      correctIndex: 1,
+      explanation: 'self refers to the specific instance the method is called on.',
+    },
+    {
+      question: 'What does super() do?',
+      options: ['Creates a new class', 'Calls parent class methods', 'Deletes an object', 'Imports a superclass'],
+      correctIndex: 1,
+      explanation: 'super() gives access to methods in the parent class.',
+    },
+    {
+      question: 'What is duck typing?',
+      options: ['Using type hints only', 'Judging objects by their methods, not their type', 'Inheriting from Duck class', 'Runtime type enforcement'],
+      correctIndex: 1,
+      explanation: 'If it has the right methods, it works — regardless of class hierarchy.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-5" />

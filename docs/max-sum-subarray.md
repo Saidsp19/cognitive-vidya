@@ -57,3 +57,5 @@ The notebook includes:
 - Pre-written test cases
 - Auto-grader to validate your solution
 - Hints if you get stuck
+
+<LessonProgress lessonId="max-sum-subarray" />

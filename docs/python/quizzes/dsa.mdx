@@ -1,0 +1,46 @@
+---
+sidebar_position: 9
+---
+
+# DSA Patterns Quiz
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="DSA Patterns"
+  storageKey="quiz-dsa"
+  questions={[
+    {
+      question: 'Sliding Window is best for problems involving:',
+      options: ['Sorted arrays only', 'Contiguous subarrays/substrings', 'Graph traversal', 'Recursive trees'],
+      correctIndex: 1,
+      explanation: 'Sliding window optimizes problems on contiguous sequences.',
+    },
+    {
+      question: 'HashMap pattern typically trades:',
+      options: ['Time for space', 'Space for time', 'Accuracy for speed', 'Memory for CPU cores'],
+      correctIndex: 1,
+      explanation: 'HashMaps use extra memory to achieve O(1) lookups.',
+    },
+    {
+      question: 'Binary Search requires:',
+      options: ['A linked list', 'Sorted data', 'A hash function', 'A stack'],
+      correctIndex: 1,
+      explanation: 'Binary search only works on sorted sequences.',
+    },
+    {
+      question: 'Dynamic Programming is characterized by:',
+      options: ['Greedy local choices', 'Overlapping subproblems', 'Random access only', 'No recursion'],
+      correctIndex: 1,
+      explanation: 'DP solves problems by storing results of overlapping subproblems.',
+    },
+    {
+      question: 'BFS on a grid is used to:',
+      options: ['Sort elements', 'Explore connected components level by level', 'Find medians', 'Reverse strings'],
+      correctIndex: 1,
+      explanation: 'BFS explores neighbors layer by layer — ideal for shortest path and flood-fill.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/dsa" />

@@ -1,0 +1,34 @@
+---
+sidebar_position: 6
+---
+
+# Module 6 Quiz — Files & Errors
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 6: Files & Error Handling"
+  storageKey="quiz-module-6"
+  questions={[
+    {
+      question: 'Why use with open(...) as f?',
+      options: ['Faster reads', 'Automatic file closing', 'Encryption', 'Parallel access'],
+      correctIndex: 1,
+      explanation: 'Context managers ensure files are closed even if an error occurs.',
+    },
+    {
+      question: 'Which exception is raised for division by zero?',
+      options: ['ValueError', 'TypeError', 'ZeroDivisionError', 'ArithmeticError only'],
+      correctIndex: 2,
+      explanation: 'Dividing by zero raises ZeroDivisionError.',
+    },
+    {
+      question: 'What module serializes Python objects to JSON?',
+      options: ['csv', 'pickle', 'json', 'serialize'],
+      correctIndex: 2,
+      explanation: 'The json module handles JSON encoding and decoding.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-6" />

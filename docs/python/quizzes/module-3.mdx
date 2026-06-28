@@ -1,0 +1,34 @@
+---
+sidebar_position: 3
+---
+
+# Module 3 Quiz — Data Structures
+
+import Quiz from '@site/src/components/Quiz';
+
+<Quiz
+  title="Module 3: Data Structures"
+  storageKey="quiz-module-3"
+  questions={[
+    {
+      question: 'Which data structure is mutable and ordered?',
+      options: ['tuple', 'str', 'list', 'frozenset'],
+      correctIndex: 2,
+      explanation: 'Lists are ordered and can be modified after creation.',
+    },
+    {
+      question: 'What does a set guarantee about its elements?',
+      options: ['Sorted order', 'Unique values', 'Key-value pairs', 'Immutability'],
+      correctIndex: 1,
+      explanation: 'Sets contain only unique elements with no duplicates.',
+    },
+    {
+      question: 'How do you safely get a dict value with a default?',
+      options: ['d[key] or default', 'd.get(key, default)', 'd.find(key)', 'd[key, default]'],
+      correctIndex: 1,
+      explanation: 'dict.get(key, default) returns default if key is missing without raising KeyError.',
+    },
+  ]}
+/>
+
+<LessonProgress lessonId="python/quizzes/module-3" />
